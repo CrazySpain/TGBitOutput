@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		96DA3DF81AA3793600CD70DE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 96DA3DF71AA3793600CD70DE /* main.c */; };
+		96DA3E001AA38B3800CD70DE /* TGBitOutput.c in Sources */ = {isa = PBXBuildFile; fileRef = 96DA3DFE1AA38B3800CD70DE /* TGBitOutput.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		96DA3DF41AA3793600CD70DE /* TGBitOutput */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TGBitOutput; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DA3DF71AA3793600CD70DE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		96DA3DFE1AA38B3800CD70DE /* TGBitOutput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TGBitOutput.c; sourceTree = "<group>"; };
+		96DA3DFF1AA38B3800CD70DE /* TGBitOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBitOutput.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				96DA3DF71AA3793600CD70DE /* main.c */,
+				96DA3DFE1AA38B3800CD70DE /* TGBitOutput.c */,
+				96DA3DFF1AA38B3800CD70DE /* TGBitOutput.h */,
 			);
 			path = TGBitOutput;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96DA3DF81AA3793600CD70DE /* main.c in Sources */,
+				96DA3E001AA38B3800CD70DE /* TGBitOutput.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
